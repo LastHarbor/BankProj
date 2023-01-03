@@ -1,0 +1,16 @@
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\BankProj.exe
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\BankProj.deps.json
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\BankProj.runtimeconfig.json
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\BankProj.runtimeconfig.dev.json
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\BankProj.dll
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\BankProj.pdb
+C:\Users\Anton\Documents\BankProj\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.csproj.AssemblyReference.cache
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.AssemblyInfoInputs.cache
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.AssemblyInfo.cs
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.csproj.CoreCompileInputs.cache
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.csproj.CopyComplete
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.dll
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.pdb
+C:\Users\Anton\Documents\BankProj\obj\Debug\netcoreapp3.1\BankProj.genruntimeconfig.cache
