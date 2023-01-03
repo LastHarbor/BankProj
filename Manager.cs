@@ -5,7 +5,6 @@ using BankProj;
 
 public class Manager : IEmployee
 {
-    
     public void ChangeMobile(List<Client> clients, List<string> Changes, IEmployee employee)
     {
         Console.WriteLine($"Enter ID client: ");
@@ -13,7 +12,7 @@ public class Manager : IEmployee
         Console.WriteLine($"Enter new mobile number");
         clients[id].MobileNum = Console.ReadLine();
         clients[id].Changes += $"{DateTime.Now}  {employee.GetType()} " + "Changed surname";
-        Changes.Add(clients[id].Changes!); ;
+        Changes.Add(clients[id].Changes!);
 
     }
 

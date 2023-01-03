@@ -13,7 +13,7 @@ public class Menu
     private readonly List<string> _changes = new List<string>();
     public void Start()
     {
-        DataBase(_listClients);
+        DataBase(_listClients, _changes);
         IEmployee? employee = null;
         Console.WriteLine($"1 - Работать как менеджер\n"+
         "2 - Работать как консультант\n3 - Exit");
@@ -97,13 +97,14 @@ public class Menu
                     break;
                 case "9":
                     CreateJson(_listClients);
+                    LogList(_changes);
                     Environment.Exit(0);
                     break;
                 case "10":
                     foreach (var change in _changes)
                     {
                         Console.WriteLine(change);
-                    } 
+                    }
                     break;
                 case "11":
                     Start();
@@ -122,8 +123,11 @@ public class Menu
         }
     }
 
-    public void DataBase(List<Client> clients)
+    public void DataBase(List<Client> clients, List<string> changes)
     {
+        string loglist = File.ReadAllText("Log.txt");
+        changes.Add(loglist);
+        //
         string json = File.ReadAllText(path);
         var data = JsonConvert.DeserializeObject<List<Client>>(json);
         foreach (var cl in data)
@@ -132,5 +136,15 @@ public class Menu
         }
     }
 
+    public void LogList(List<string> changes)
+    {
+        path = "Log.txt";
+        if(!File.Exists(path)) File.Create(path);
+        foreach (var ch in changes)
+        {
+            File.WriteAllText(path, ch);
+        }
+    }
 }
+
 
